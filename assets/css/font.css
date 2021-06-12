@@ -1,0 +1,59 @@
+/* font-family: Abel; */
+@font-face {
+  font-family: Abel;
+  src: url("../fonts/Abel/Abel-Regular.ttf");
+}
+
+/* font-family: Anton; */
+@font-face {
+  font-family: Anton;
+  src: url("../fonts/Anton/Anton-Regular.ttf");
+}
+
+/* font-family: Josefin; */
+@font-face {
+  font-family: Josefin;
+  src: url("../fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+/* font-family: Lexend; */
+@font-face {
+  font-family: Lexend;
+  src: url("../fonts/Lexend_Deca/LexendDeca-Regular.ttf");
+}
+
+/* font-family: Livvic; */
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+/* font-family: Livvic; */
+@font-face {
+  font-family: Open_Sans;
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+/* font-family: Livvic; */
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+/* font-family: Livvic; */
+@font-face {
+  font-family: Miss_Fajardose;
+  src: url("../fonts/Miss_Fajardose/MissFajardose-Regular.ttf");
+}
+
+/* font-family: Livvic; */
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+/* font-family: Livvic; */
+@font-face {
+  font-family: Trade_Winds;
+  src: url("../fonts/Trade_Winds/TradeWinds-Regular.ttf");
+}

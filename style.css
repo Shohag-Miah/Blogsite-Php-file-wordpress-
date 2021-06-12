@@ -1,0 +1,212 @@
+/* 
+Theme name: Shohag Blog
+Text Domain: shohagblog
+Version: 1.0.0
+Description: This is Blog website theme.It's responsive and mobile-friendly.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks, accessibility-ready
+Author: Shohag Miah
+Author URI: https://shohagblog.epizy.com/
+Theme URI: https://shohagblog.epizy.com/
+*/
+
+a{
+    transition: .5s all ease !important;
+}
+
+.page_content {
+    background: #fff;
+    overflow: hidden;
+    padding: 15px;
+}
+
+
+.navbar.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    transition: 1s all ease;
+  }
+.related_post_wrapper .col-md-4{
+    padding-right: 15px !important;
+    padding-left: 0 !important;
+}
+
+.related_post_wrapper .col-md-4:last-child{
+    padding-right: 0 !important;
+}
+
+.related-post .entry-title a {
+    color: #000 !important;
+    text-shadow: none;
+    padding-top:  10px !important;
+    display: block;
+  }
+
+  .mobile-search-bar{
+      display: none;
+  }
+  .search-toggle.mobile-search-toggle {
+    position: fixed !important;
+    color: #fff !important;
+    top: 9px !important;
+    right: 26px;
+}
+
+.footer_widget {
+    color: #aaa;
+}
+
+.footer_widget a {
+    color: #aaa;
+}
+
+.footer_widget a:hover {
+    color: #ff3d00;
+}
+
+#load_more{
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.7;
+    transition: opacity 320ms all ease;
+}
+
+#load_more.loading,
+#load_more:hover,
+#load_more:focus{
+    opacity: 1;
+}
+
+#load_more.loading{
+    cursor: default;
+}
+
+#load_more i.spin{
+    animation: spin 1000ms infinite linear;
+}
+
+@keyframes spin{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+
+.recent_widget_content article{
+    transform: translateY(100px);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.recent_widget_content article.reveal{
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+
+.screen-reader-text {
+    display: none;
+  }
+  .nav-links .page-numbers {
+    border: 1px solid #ccc;
+    padding: 6px 14px;
+    border-radius: 4px;
+    color: #000;
+  }
+  .page-numbers.current {
+    background: #ff3d00;
+    border: 1px solid #ff3d00;
+    color: #fff;
+  }
+
+
+  .error-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+  }
+  .error-page-content p {
+    font-size: 19px;
+  }
+  .error-page-content h1 {
+    font-size: 160px;
+    font-weight: 900;
+    letter-spacing: 20px;
+    font-family: "Montserrat";
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+  }
+
+.error-page-content a{
+    background: #000;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.popular-post .entry-image-link {
+    width: 100%;
+  }
+.single_post_wrapper  .entry-image-link {
+    height: 320px;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+.single_post_wrapper .post-title h2{
+    margin-bottom: 0 !important;
+}
+
+.single_post_wrapper .entry-meta{
+    margin-bottom: 15px;
+}
+
+.enlighter-default {
+    overflow: auto !important;
+    max-height: 350px;
+}
+
+.enlighter-btn.enlighter-btn-website {
+    display: none  !important;
+}
+
+.cat_name{
+    text-transform: capitalize;
+}
+
+.entry-image-link img{
+    width: 100% !important;
+    object-fit: cover;
+    position: relative;
+    transition: .5s all ease-in-out;
+}
+
+.entry-image-link::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.5);
+}
+
+
+.entry-image:hover .entry-image-link img {
+  transform: scale(1.1);
+transition: .5s all ease-in-out;
+}
+
+
+.breadcrumbs_content {
+    padding-top: 20px;
+    color: #888;
+}
